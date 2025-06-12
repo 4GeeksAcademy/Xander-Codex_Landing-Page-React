@@ -1,13 +1,12 @@
 import React from "react";
 import Card from './Card.jsx';
-import rigoImage from "../../img/rigo-baby.jpg";
 import Navbar from "./Navbar.jsx";
 import Jumbotron from "./Jumbotron.jsx";
 import Footer from "./Footer.jsx";
-//create your first component
+
 const Home = () => {
 	return (
-		<>
+		<div>
 			<Navbar />
 			<div className="container mb-4">
 				<div className="row">
@@ -31,7 +30,7 @@ const Home = () => {
 				</div>
 			</div>
 			<Footer />
-		</>
+		</div>
 	);
 };
 
